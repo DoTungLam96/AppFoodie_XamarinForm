@@ -1,0 +1,17 @@
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\bin\Release\netstandard2.0\FoodieApp.deps.json
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\bin\Release\netstandard2.0\FoodieApp.dll
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\bin\Release\netstandard2.0\FoodieApp.pdb
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\FoodieApp.csprojAssemblyReference.cache
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\App.xaml.g.cs
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\CellPage\RecipeCell.xaml.g.cs
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\CellPage\RecommendCell.xaml.g.cs
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\Views\EditRecipePage.xaml.g.cs
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\Views\RecipeDetailPage.xaml.g.cs
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\Views\RecipeListPage.xaml.g.cs
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\FoodieApp.csproj.CoreCompileInputs.cache
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\FoodieApp.AssemblyInfoInputs.cache
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\FoodieApp.AssemblyInfo.cs
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\FoodieApp.dll
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\FoodieApp.pdb
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp\obj\Release\netstandard2.0\XamlC.stamp

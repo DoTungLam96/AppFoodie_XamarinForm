@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-M5MO6G7</Machine>
+    <WindowsUser>Admin</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
+    <PackageIdentityPublisher>CN=834947a2-d5cc-46d7-a25a-6be9659ae0c2</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>2646BFB155E4E7FB9ABD1782180638DB38591B8E140F0DF60E5EA5123B5CAB1B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a304e551-acb4-4568-a385-40138f8bc8d7_1.0.0.0_x86__26v8w7npjscwm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a304e551-acb4-4568-a385-40138f8bc8d7_26v8w7npjscwm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a304e551-acb4-4568-a385-40138f8bc8d7</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=834947a2-d5cc-46d7-a25a-6be9659ae0c2</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-26T15:41:23.847</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\burger.jpg">
+      <PackagePath>Assets\burger.jpg</PackagePath>
+      <Modified>2018-10-24T15:45:23.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\muffins.jpg">
+      <PackagePath>Assets\muffins.jpg</PackagePath>
+      <Modified>2018-10-24T15:45:23.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\piciham.jpg">
+      <PackagePath>Assets\piciham.jpg</PackagePath>
+      <Modified>2018-10-24T15:45:23.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\pizza.jpg">
+      <PackagePath>Assets\pizza.jpg</PackagePath>
+      <Modified>2018-10-24T15:45:23.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\potato.jpg">
+      <PackagePath>Assets\potato.jpg</PackagePath>
+      <Modified>2018-10-24T15:45:23.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-14T03:02:45.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2018-05-16T10:28:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\FoodieApp.UWP.dll">
+      <PackagePath>FoodieApp.UWP.dll</PackagePath>
+      <Modified>2018-10-26T15:41:21.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\FoodieApp.UWP.exe">
+      <PackagePath>FoodieApp.UWP.exe</PackagePath>
+      <Modified>2018-10-26T15:41:23.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\FoodieApp.UWP.pdb">
+      <PackagePath>FoodieApp.UWP.pdb</PackagePath>
+      <Modified>2018-10-26T15:41:23.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-26T15:38:41.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\AutoSuggestStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\AutoSuggestStyle.xbf</PackagePath>
+      <Modified>2018-07-26T12:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\FormsCommandBarStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\FormsCommandBarStyle.xbf</PackagePath>
+      <Modified>2018-07-26T12:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\FormsEmbeddedPageWrapper.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\FormsEmbeddedPageWrapper.xbf</PackagePath>
+      <Modified>2018-07-26T12:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\FormsFlyout.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\FormsFlyout.xbf</PackagePath>
+      <Modified>2018-07-26T12:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\FormsProgressBarStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\FormsProgressBarStyle.xbf</PackagePath>
+      <Modified>2018-07-26T12:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\FormsTextBoxStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\FormsTextBoxStyle.xbf</PackagePath>
+      <Modified>2018-07-26T12:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\MasterDetailControlStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\MasterDetailControlStyle.xbf</PackagePath>
+      <Modified>2018-07-26T12:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\PageControlStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\PageControlStyle.xbf</PackagePath>
+      <Modified>2018-07-26T12:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Resources.xbf</PackagePath>
+      <Modified>2018-07-26T12:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\SliderStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\SliderStyle.xbf</PackagePath>
+      <Modified>2018-07-26T12:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\TabbedPageStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\TabbedPageStyle.xbf</PackagePath>
+      <Modified>2018-07-26T12:16:08.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx">
+      <Name>Microsoft.NET.Native.Framework.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx">
+      <Name>Microsoft.NET.Native.Framework.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx">
+      <Name>Microsoft.NET.Native.Framework.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.1.8\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.1.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.1.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.1.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.1</Name>
+      <Version>2.1.26424.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.1, MinVersion = 2.1.26424.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.1.8\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

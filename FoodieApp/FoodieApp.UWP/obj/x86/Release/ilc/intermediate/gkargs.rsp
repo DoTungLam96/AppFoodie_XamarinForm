@@ -1,0 +1,12 @@
+﻿"D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\obj\x86\Release\ilc\in\FoodieApp.dll"
+"D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\obj\x86\Release\ilc\in\FoodieApp.UWP.exe"
+"D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Core.dll"
+"D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.dll"
+"D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Platform.UAP.dll"
+"D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\obj\x86\Release\ilc\in\Xamarin.Forms.Xaml.dll"
+/Lib:"D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\obj\x86\Release\ilc\in"
+/Lib:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\tools\x86\ilc\lib\Private"
+/WinMD:"D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"15109736-1fb6-4a05-b2e7-59aa542c579e","Id":"6236fd74-4f5a-461f-a9f7-b4d68157a4b0","ProcessStartTime":636761627505118274}"
+/RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.1.8\tools\LibraryXML"
+/RunOnlyPreDR

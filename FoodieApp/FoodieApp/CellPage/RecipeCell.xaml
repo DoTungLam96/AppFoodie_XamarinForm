@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Height="280"
+             xmlns:local="clr-namespace:FoodieApp;assembly=FoodieApp"
+             xmlns:effects="clr-namespace:FoodieApp.Effects;assembly=FoodieApp"
+             x:Class="FoodieApp.CellPage.RecipeCell">
+    <ContentView Margin="10">
+        <ContentView.Resources>
+            <!--Source-->
+            <ResourceDictionary>
+                <local:BoolToValue x:TypeArguments="Color" x:Key="colorConverter" TrueValue="#4897a3" FalseValue="Red"></local:BoolToValue>
+                <local:StringToValue x:TypeArguments="Color" x:Key="stringConverter" EasyColor="CornflowerBlue" HardColor="Red" MediumColor="DarkOrange" ></local:StringToValue>
+            </ResourceDictionary>
+        </ContentView.Resources>
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="160" />
+                <RowDefinition Height="7" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <BoxView Color="#4897a3"
+					 Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" />
+
+            <Label Text="{Binding MealType}" 
+                   TextColor="#fff" 
+                   FontAttributes="Italic,Bold"
+	               FontSize="17" VerticalTextAlignment="Center" Margin="10,0,0,0"
+			       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"/>
+
+            <Image Aspect="AspectFill" 
+				   Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3">
+                <Image.Source>
+                    <OnPlatform x:TypeArguments="ImageSource">
+                        <OnPlatform.Android>
+                            <FileImageSource File="{Binding ImageName}"></FileImageSource>
+                        </OnPlatform.Android>
+                        <OnPlatform.WinPhone>
+                            <FileImageSource File="{Binding ImageName,StringFormat='Assets/{0}'}"></FileImageSource>
+                        </OnPlatform.WinPhone>
+                    </OnPlatform>
+                </Image.Source>
+            </Image>
+
+            <BoxView Color="#757575" 
+                     Opacity=".25"
+					 Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" />
+
+            <Label Text="{Binding RecipeName}" TextColor="White"                                     
+		           FontSize="25" FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+	               Grid.Row="1" Grid.ColumnSpan="3">
+                <Label.Effects>
+                    <effects:ShadowColor/>
+                </Label.Effects>
+            </Label>
+
+            <BoxView Color="{Binding WillMakeAgain, Converter={StaticResource colorConverter}}"
+				     Grid.Row="2" 
+                     Grid.Column="0" 
+                     Grid.ColumnSpan="3" />
+
+            <BoxView Color="#F6F6F6"
+					 Grid.Row="3" 
+                     Grid.Column="0" 
+                     Grid.ColumnSpan="3" 
+                     Grid.RowSpan="2" />
+
+            <Label Text="{Binding PreparationTime, StringFormat='{0} prep'}" 
+                   Margin="10,5,0,0" 			    
+                   FontSize="Small" 
+                   TextColor="#4897a3"								    
+                   Grid.Row="3" Grid.Column="0" />
+
+            <Label Text="{Binding CookTime, StringFormat='{0} cook'}" 
+                   Margin="7,5,0,0" 				    
+                   FontSize="Small" TextColor="#4897a3"				    
+                   Grid.Row="3" Grid.Column="1" />
+
+            <Label Text="{Binding NumberOfServings, StringFormat='serves {0}'}" 
+                   Margin="10,5,0,0" 		   
+                   FontSize="Small" TextColor="#4897a3"			    
+                   Grid.Row="3" Grid.Column="2" />
+
+            <Label Text="View Recipe >" 
+                   FontSize="Micro" 
+                   HorizontalTextAlignment="End" 
+                   Margin="0,5,10,0" 
+                   TextColor="#f469af" 
+                   FontAttributes="Bold"
+	               Grid.Row="4" Grid.Column="2" />
+        </Grid>
+    </ContentView>
+</ViewCell>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FoodieApp;assembly=FoodieApp"
+             BackgroundColor="#dbe8ea"
+             xmlns:floatingButton="clr-namespace:SuaveControls.Views;assembly=SuaveControls.FloatingActionButton"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="FoodieApp.Views.RecipeListPage">
+    <!--Source-->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:RecipeDataTemplate x:Key="recipeDataTemplate"></local:RecipeDataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <!--Content-->
+    <ContentPage.Content>
+
+        <AbsoluteLayout>
+            <ListView 
+                  ItemsSource="{Binding AllRecipes}" 
+				  IsGroupingEnabled="true"
+                  AbsoluteLayout.LayoutFlags="SizeProportional"
+                  AbsoluteLayout.LayoutBounds="0,0,1,1"
+                  x:Name="recipeList"
+                  ItemSelected="ListView_OnItemSelected"
+                  ItemTemplate="{StaticResource recipeDataTemplate}"
+                  HasUnevenRows="true">
+                <!--SeparatorVisibility="None"-->
+                <!--Header-->
+                <ListView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <ViewCell Height="40">
+                            <ContentView>
+                                <Grid BackgroundColor="#ffffff">
+                                    <Label Text="{Binding Title}"
+                                       Margin="10,0,0,0"
+                                       FontSize="18"
+                                       FontAttributes="Bold"
+                                       VerticalTextAlignment="Center"
+                                       TextColor="#f469af" />
+                                </Grid>
+                            </ContentView>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.GroupHeaderTemplate>
+
+                <!--Main content-->
+
+            </ListView>
+            <floatingButton:FloatingActionButton 
+                ButtonColor="#219E16"
+                                   Image="add.png"
+                                   AbsoluteLayout.LayoutBounds="1,1,AutoSize,AutoSize"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   Command="{Binding AddRecipeCommand}"/>
+        </AbsoluteLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,1 @@
+D:\Xamarin Project\FoodieApp\FoodieApp\FoodieApp.UWP\FoodieApp.UWP.csproj;x86
